@@ -1,0 +1,29 @@
+
+
+a:visited {
+	color: white;
+}
+
+img {
+    margin-left: 10px;
+    margin: 10px;
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+h2{
+    margin-left: 20px;
+    color: white;
+}
+.social-cont{
+    background-color: rgb(29, 151, 221);
+    color: white;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.service {
+    margin-right: 80px;
+}
+
