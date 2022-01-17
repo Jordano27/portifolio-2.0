@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto';
+}
+
+.about {
+	display: flex;
+}
+
+.meuso{
+    width: 60vh;
+	float: left;
+	margin-right: 10px;
+}
+.edit{
+    margin-right: 10px;
+}
+.dois-imagem{
+    margin-left: 10px;
+    margin: 10px;
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.container {
+	float: left;
+	margin-left: 20px;
+	box-sizing: border-box;
+    margin-top: 40px;
+}
+
+
+.espic{
+    text-decoration: none;
+	margin-right: 10px;
+	font-size: small;
+	color: rgb(26, 22, 22);
+	margin-top: 15px;
+	font-size: 100%;
+
+}
+.name-menu{
+    margin-left: 20px;
+    color: white;
+}
+.conteudo-geral{
+    margin-left: 60px;
+}
+.kgt{
+    margin-top: 40px;
+    margin-left: 0;
+}
