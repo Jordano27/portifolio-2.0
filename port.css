@@ -1,0 +1,60 @@
+.imagens-p{
+    width: 300px;
+    margin-right: 10px;
+    left: 50px;
+}
+
+.margem{
+	margin-left: 0;
+	margin-bottom: 0 ;
+	margin-top: 15px;
+}
+.container {
+	float: left;
+	margin-left: 20px;
+	box-sizing: border-box;
+    margin-top: 40px;
+}
+
+
+a:visited {
+	color: white;
+}
+
+
+.foto-perfil {
+    margin-left: 10px;
+    margin: 10px;
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+h2{
+    margin-left: 20px;
+    color: white;
+}
+nav{
+    margin-right: 20px;
+    top: 0;
+}
+.imagens-ps{
+    width: 300px;
+    margin-right: 10px;
+    left: 50px;
+}
+.title-fac{
+margin-left: 220px;
+}
+.paragraf-fact{
+    margin-left: 220px;
+}
+.btn-group{
+    margin-left: 220px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
