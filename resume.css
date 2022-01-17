@@ -1,0 +1,44 @@
+h2{
+  margin-left: 20px;
+  color: white;
+}
+
+nav{
+  margin-right: 20px;
+  top: 0;
+}
+
+.margem{
+	margin-left: 0;
+	margin-bottom: 0 ;
+	margin-top: 15px;
+}
+
+
+.resume-info {
+  width: 80%;
+  float: left;
+}
+
+
+h4 {
+  font-size: 16px;
+}
+
+li {
+  margin-top: 10px;
+}
+.social-container{
+  margin-bottom: 60px;
+  
+}
+.container{
+  margin-left: 20px;
+}
+.foto{
+  width: 200px;
+  float: left;
+}
+.educacao{
+  margin-left: 190px;
+}
