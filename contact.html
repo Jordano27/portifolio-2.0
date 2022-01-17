@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="nav.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <img
+        src="https://img.freepik.com/fotos-gratis/retrato-do-modelo-de-sorriso-bonito-do-homem-de-negocios-lumbersexual-do-moderno-a-moda-homem-vestido-com-roupas-de-jaqueta-jeans_158538-1737.jpg?size=626&ext=jpg"
+        alt=""
+      />
+      <h2 class="nomee">Jodano Poletto</h2>
+      <div class="social-container">
+        <a class="social-button" href="#"><i class="bi bi-twitter"></i></a>
+        <a class="social-button" href="#"><i class="bi bi-instagram"></i></a>
+        <a class="social-button" href="#"><i class="bi bi-facebook"></i></a>
+        <a class="social-button" href="#"><i class="bi bi-skype"></i></a>
+        <a class="social-button" href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+      
+      
+      <ul class="container">
+        <a href="home.html"
+          ><p class="margem"><i class="bi bi-house-door"></i> Home</p></a
+        >
+        <a href="about.html"
+          ><p class="margem"><i class="bi bi-person"></i> About</p></a
+        >
+        <a href="resume.html"
+          ><p class="margem"><i class="bi bi-file-earmark-text"></i> Resume</p></a
+        >
+        <a href="Portifólio.html"
+          ><p class="margem"><i class="bi bi-journals"></i> Portifólio</p></a
+        >
+        <a href="services.html"
+          ><p class="margem"><i class="bi bi-hdd-stack"></i> Services</p></a
+        >
+        <a href="contact.html"
+          ><p class="margem"><i class="bi bi-envelope"></i> Contact</p></a
+        >
+      </ul>
+    </nav>
+
+    
+   
+    <div class="geral-dados">
+      <form name="Formulário" action="/salvar.php" method="POST"></form>
+
+      <label for="nome" class="labelinput">Nome Completo:</label>
+      <input type="text" id="name" name="name" placeholder="Digite seu nome" />
+
+        <label for="email" class="labelinput">Email:</label>
+        <input type="text" name="email" id="email" class="inputUser" placeholder="Email" required />
+
+      <label for="email" class="labelinput">subject</label>
+      <input type="text" name="email" id="subject" class="inputUser" placeholder="Subject" required />
+
+      <label for="email" class="labelinput">Mensagem</label>
+      <input type="text" name="email" id="mensager" class="inputUser" placeholder="Mensagem" required />
+      
+      
+      
+
+      <button id="submit">Send Mensager</button>
+    </div>
+  </body>
+</html>
