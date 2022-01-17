@@ -1,0 +1,50 @@
+body{
+  font-family: 'Roboto';
+}
+
+a {
+  text-decoration: none;
+}
+p{
+margin-right: 10px;
+font-size: small;
+margin-top: 15px;
+font-size: 100%;
+}
+
+a:visited {
+color: white;
+}
+
+.social-container {
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+
+.social-button {
+  background-color: #292828;
+  color: white;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.margem{
+	margin-top: 15px;
+}
+
+.nav{
+	float: left;
+	background-color: rgb(22, 22, 22);
+	width: 15%;
+	height: 99vh;
+	box-sizing: border-box;
+    margin-top: 0;
+}	
+
+.nav img {
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
